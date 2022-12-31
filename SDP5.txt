@@ -1,0 +1,80 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9         #list-1\{display: inline-block;text-align: left;\}\par
+    </style><!DOCTYPE html>\par
+<html lang="en">\par
+<head>\par
+    <meta charset="UTF-8">\par
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\par
+    <title>Web Pages</title>\par
+    <style>\par
+        body\{text-align:center;\}\par
+        table, th, td \{border: 1px solid black; align:center;\}\par
+        .center \{\par
+          margin-left: auto;\par
+          margin-right: auto;\par
+        \}\par
+\par
+</head>\par
+<body>\par
+  <div style="background-color:burlywood">\par
+    <h2 id="heading">Navigate To Different Web Pages</h2><br>\par
+    <a id="login" href="#login-form">LOGIN</a><br>\par
+    <br>\par
+    <a id="table" href="#table-1">TABLE</a><br>\par
+    <br>\par
+    <a id="about" href="#about-heading">ABOUT</a>\par
+  </div>\par
+  <div style="background-color:yellow">\par
+    <h4>Registration</h4><br>\par
+    <form id="login-form">\par
+        <label>Name :</label>\par
+        <input type="text" id="fname"><br>\par
+        <label>Password :</label>\par
+        <input type="text"><br>\par
+        <label>Email :</label>\par
+        <input type="text"><br>\par
+        <label for="courses">Courses :</label>\par
+        <select name="Courses" id="course">\par
+          <option value="Computer Science">Computer Science</option>\par
+          <option value="IT">IT</option>\par
+          <option value="ECE">ECE</option>\par
+          <option value="EEE">EEE</option>\par
+          <option value="AI">AI</option>\par
+        </select><br>\par
+        <label for="Address">Address :</label>\par
+        <textarea id="Address" name="Address" rows="4" cols="50"></textarea><br>\par
+        <label for="Country">Country :</label>\par
+        <input list="Countries" name="Countries" id="Country">\par
+        <datalist id="Countries">\par
+          <option value="India">\par
+          <option value="south korea">\par
+          <option value="Japan">\par
+          <option value="USA">\par
+          <option value="Greenland">\par
+        </datalist><br>\par
+        <button id="submit_btn" type="submit" form="login-form" value="Submit">Submit</button>\par
+    </form></div>\par
+  <div style="background-color:purple">\par
+        <h1 id="heading">TABLES AND LISTS</h1><br>\par
+        <table class="center" id="table-1""width:50%">\par
+        <tr><th>Roll No</th><th>Name</th><th>Course</th><th>Department</th></tr>\par
+        <tr><td>101</td><td>lisha</td><td>Computer</td><td>CS</td></tr>\par
+        <tr><td>102</td><td>keerthana</td><td>Information Technology</td><td>IT</td></tr>\par
+        <tr><td>103</td><td>sai shakthi</td><td>Mechanics</td><td>ME</td></tr>\par
+        <tr><td>104</td><td>samantha</td><td>Electronics</td><td>EEE</td></tr>\par
+        <tr><td>105</td><td>shalini</td><td>artificial intelligence</td><td>AI</td></tr>\par
+        <tr><td>106</td><td>priyadharshini</td><td>communication</td><td>ECE</td></tr>\par
+        </table><br>\par
+        <h2 id="courses">No Of Courses Available</h2>\par
+        <ul id="list-1"><li>Computer Science</li><li>Electronics</li><li>Aerounetics</li><li>Mechanical</li><li>Artificial Intelligence</li></ul>\par
+   </div>\par
+  <div style="background-color:green">\par
+    <h1 id="about-heading">About Page</h1>\par
+    <p id="description">This html page shows the tables,forms and no of courses listed in the above form.It gets navigated to the new web pages.</p>\par
+  </div>\par
+</body>\par
+</html>\par
+}
+ 
